@@ -2,54 +2,71 @@
   "commands": [
     {
       "id": 0,
-      "name": "ping"
+      "name": "ping",
+      "description": "launch icmp type 8 code 0 (echo req) to a destination"
     },
     {
       "id": 1,
-      "name": "traceroute"
+      "name": "traceroute",
+      "description": "lauch decremental IP TTL to a destination"
     },
     {
       "id": 2,
-      "name": "dig"
+      "name": "dig",
+      "description": "query dns"
     },
     {
       "id": 3,
-      "name": "nslookup"
+      "name": "nslookup",
+      "description": "query dns"
     },
     {
       "id": 4,
-      "name": "ncat"
+      "name": "ncat",
+      "description": "mount tcp / udp connexions"
     },
     {
       "id": 5,
       "name": "nmap",
+      "description": "scan ip destination in arp/icmp/tcp/udp",
       "options": 
       [
         {
           "id": 0,
-          "string": "-sn "
+          "string": "-sn ",
+          "description": "simple scan"
         },
         {
           "id": 1,
-          "string": "-oG - "
+          "string": "-oG - ",
+          "description": "raw grepable output"
         }
       ]
     },
     {
       "id": 6,
-      "name": "arp-scan"
+      "name": "arp-scan",
+      "description": "send ARP request to a destination"
     },
     {
       "id": 7,
-      "name": "nload"
+      "name": "nload",
+      "description": "monitor trafic through interfaces"
     },
     {
       "id": 8,
-      "name": "tcpdump"
+      "name": "tcpdump",
+      "description": "capture trafic"
     },
     {
       "id": 9,
-      "name": "curl"
+      "name": "curl",
+      "description": ""
+    },
+    {
+      "id": 10,
+      "name": "tshark",
+      "description": "trafic analyzer"
     }
   ],
   "profile": {
