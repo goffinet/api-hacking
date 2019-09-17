@@ -1,28 +1,56 @@
 {
   "commands": [
     {
+      "id": 0,
+      "name": "ping"
+    },
+    {
       "id": 1,
-      "name": "nmap"
+      "name": "traceroute"
     },
     {
       "id": 2,
-      "name": "ncat"
+      "name": "dig"
     },
     {
       "id": 3,
+      "name": "nslookup"
+    },
+    {
+      "id": 4,
+      "name": "ncat"
+    },
+    {
+      "id": 5,
+      "name": "nmap"
+    },
+    {
+      "id": 6,
+      "name": "arp-scan"
+    },
+    {
+      "id": 7,
+      "name": "nload"
+    },
+    {
+      "id": 8,
       "name": "tcpdump"
+    },
+    {
+      "id": 9,
+      "name": "curl"
     }
   ],
   "options": [
     {
-      "id": 1,
+      "id": 0,
       "string": "-sn ",
-      "commandId": 1
+      "commandId": 5
     },
     {
-      "id": 2,
+      "id": 1,
       "string": "-oG - ",
-      "commandId": 1
+      "commandId": 5
     }
   ],
   "profile": {
