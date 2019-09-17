@@ -1,5 +1,5 @@
 {
-  "commands": [
+  "tools": [
     {
       "id": 0,
       "name": "ping",
