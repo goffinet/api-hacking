@@ -61,7 +61,7 @@
     {
       "id": 9,
       "name": "curl",
-      "description": ""
+      "description": "http trafic generator"
     },
     {
       "id": 10,
