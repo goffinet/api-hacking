@@ -2,26 +2,26 @@
   "commands": [
     {
       "id": 1,
-      "title": "nmap"
+      "name": "nmap"
     },
     {
       "id": 2,
-      "title": "ncat"
+      "name": "ncat"
     },
     {
       "id": 3,
-      "title": "tcpdump"
+      "name": "tcpdump"
     }
   ],
   "options": [
     {
       "id": 1,
-      "body": "-sn ",
+      "string": "-sn ",
       "commandId": 1
     },
     {
       "id": 2,
-      "body": "-oG - ",
+      "string": "-oG - ",
       "commandId": 1
     }
   ],
